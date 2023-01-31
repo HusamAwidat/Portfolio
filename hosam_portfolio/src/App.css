@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+    background-color: #2d343f;
+    margin: 0;
+    font-family: "Vanilla Caramel";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-title {
+    color: white;
+    padding: 1em;
+    font-size: 45px;
+    font-family: "Vanilla Caramel";
+}
+
+.categories-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.categories-row {
+    flex-basis: 30%;
+}
+
+.categories-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    padding-left: 1em;
+}
+
+.cat-secondary {
+    color: #000000;
+}
+
+.images-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.real-image {
+    width: 300px;
+    height: 300px;
+    margin: 0.5em;
+}
